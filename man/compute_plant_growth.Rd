@@ -21,3 +21,6 @@ number of leaves (n)
 \description{
 Compute the growth of a plant over time.
 }
+\author{
+Kristin Art, Sage Davis, Daija Odom
+}

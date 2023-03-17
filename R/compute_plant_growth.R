@@ -7,6 +7,7 @@
 #' @return height of plant (in mm)
 #' @return number of leaves (n)
 #'
+#' @author Kristin Art, Sage Davis, Daija Odom
 
 compute_plant_growth = function(sun, water, pot = 1){
 
