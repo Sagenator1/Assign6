@@ -7,19 +7,21 @@
 compute_plant_growth(sun, water, pot = 1)
 }
 \arguments{
-\item{sun}{number of sun hours per week}
+\item{sun}{number of sun hours per week (n)}
 
-\item{water}{number of watering events per week}
+\item{water}{number of watering events per week (n)}
 
 \item{pot}{size of pot (diameter in feet) the plant is growing in}
 }
 \value{
-height of plant (in mm)
-
-number of leaves (n)
+list with the following items
+\itemize{
+\item {height of plant (mm)}
+\item {number of leaves (n)}
+}
 }
 \description{
-Compute the growth of a plant over time.
+Compute the growth of a plant over time based on environmental conditions.
 }
 \author{
 Kristin Art, Sage Davis, Daija Odom

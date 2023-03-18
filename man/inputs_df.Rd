@@ -8,13 +8,13 @@
 A data frame with 52 rows and 2 variables:
 \itemize{
 \item sun (hours per week)
-\item water (waterings per week)
+\item water (watering events per week)
 }
 }
 \usage{
 inputs_df
 }
 \description{
-Data on sun and water input values for plant growth
+Dataframe of sun and water for input into the compute_plant_growth function. Values in the 'sun' column represent amount of sunlight given to a plant per week. Values in the 'water' column represent number of plant-watering events per week.
 }
 \keyword{datasets}

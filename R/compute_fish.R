@@ -1,13 +1,14 @@
 #' Fish Diversity
 #'
-#' This function takes a vector of fish names and returns the most common species, the rarest species and the total number of species
+#' This function takes a vector of fish names and returns the most common species, the most rare species, and the total number of species
 #' @param species vector of species
 #' @return list with the following items
-#' \describe{
-#' \item {Name of the most common species}
-#' \item {Name of the rarest species}
-#' \item {Total number of species}
+#' \itemize{
+#' \item {name of the most common species}
+#' \item {name of the rarest species}
+#' \item {total number of species}
 #' }
+#' @author Daija Odom, Sage Davis, Kristin Art
 
 # Fish data is the vector
 compute_fish = function(fish_vector) {

@@ -11,12 +11,15 @@ compute_fish(fish_vector)
 }
 \value{
 list with the following items
-\describe{
-\item {Name of the most common species}
-\item {Name of the rarest species}
-\item {Total number of species}
+\itemize{
+\item {name of the most common species}
+\item {name of the rarest species}
+\item {total number of species}
 }
 }
 \description{
-This function takes a vector of fish names and returns the most common species, the rarest species and the total number of species
+This function takes a vector of fish names and returns the most common species, the most rare species, and the total number of species
+}
+\author{
+Daija Odom, Sage Davis, Kristin Art
 }

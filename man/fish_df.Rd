@@ -3,18 +3,17 @@
 \docType{data}
 \name{fish_df}
 \alias{fish_df}
-\title{Fish Data}
+\title{Fish Catch Data}
 \format{
-A data frame with 5 rows and 2 variables:
+A vector with 20 rows and 1 variable:
 \itemize{
-\item name of 5 different types of fish
-\item number of different fish types
+\item fish species caught (cod, salmon, tuna, steelhead, or shark)
 }
 }
 \usage{
 fish_df
 }
 \description{
-Data on fish in a hypothetical body of water
+Vector of example data of one fish catch with multiple species for input into the compute_fish function. Each row represents one individual fish that was included in the catch. Each cell includes a character of the caught individuals' species name.
 }
 \keyword{datasets}

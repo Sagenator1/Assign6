@@ -1,12 +1,14 @@
 #' Growth of Plant over time
 #'
-#' Compute the growth of a plant over time.
-#' @param sun number of sun hours per week
-#' @param water number of watering events per week
+#' Compute the growth of a plant over time based on environmental conditions.
+#' @param sun number of sun hours per week (n)
+#' @param water number of watering events per week (n)
 #' @param pot size of pot (diameter in feet) the plant is growing in
-#' @return height of plant (in mm)
-#' @return number of leaves (n)
-#'
+#' @return list with the following items
+#' \itemize{
+#' \item {height of plant (mm)}
+#' \item {number of leaves (n)}
+#' }
 #' @author Kristin Art, Sage Davis, Daija Odom
 
 compute_plant_growth = function(sun, water, pot = 1){
