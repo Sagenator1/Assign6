@@ -1,8 +1,7 @@
 #' Growth of Plant over time
 #'
 #' Compute the growth of a plant over time based on environmental conditions.
-#' @param sun number of sun hours per week (n)
-#' @param water number of watering events per week (n)
+#' @param conditions dataframe containing 'sun' column with number of sun hours per week (n) and 'water' column containing number of watering events per week (n)
 #' @param pot size of pot (diameter in feet) the plant is growing in
 #' @return list with the following items
 #' \itemize{
@@ -11,8 +10,9 @@
 #' }
 #' @author Kristin Art, Sage Davis, Daija Odom
 
-compute_plant_growth = function(sun, water, pot = 1){
-
+compute_plant_growth = function(conditions, pot = 1){
+  sun <- conditions$sun
+  water <- conditions$water
   #start with some error checking
   sun = ifelse((sun < 0 ), return("Sun cannot be less than 0"), sun)
   water = ifelse((water < 0), return("Water cannot be less than 0"), water)

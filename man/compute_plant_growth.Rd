@@ -4,12 +4,10 @@
 \alias{compute_plant_growth}
 \title{Growth of Plant over time}
 \usage{
-compute_plant_growth(sun, water, pot = 1)
+compute_plant_growth(conditions, pot = 1)
 }
 \arguments{
-\item{sun}{number of sun hours per week (n)}
-
-\item{water}{number of watering events per week (n)}
+\item{conditions}{dataframe containing 'sun' column with number of sun hours per week (n) and 'water' column containing number of watering events per week (n)}
 
 \item{pot}{size of pot (diameter in feet) the plant is growing in}
 }
